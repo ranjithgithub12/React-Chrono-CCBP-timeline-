@@ -1,0 +1,52 @@
+.project-image {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .project-image {
+    width: 200px;
+  }
+}
+
+.project-title-contianer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .project-title-contianer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.project-title {
+  font-size: 25px;
+  color: #171f46;
+  font-family: 'Roboto';
+}
+
+.project-duration-container {
+  display: flex;
+}
+.duration {
+  font-size: 15px;
+  font-family: 'Roboto';
+  align-self: center;
+}
+
+.calander-icons {
+  align-self: center;
+  margin-right: 10px;
+}
+.description {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.visit-url{
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #0967d2;
+}

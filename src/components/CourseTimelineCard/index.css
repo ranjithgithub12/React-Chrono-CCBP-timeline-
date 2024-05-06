@@ -1,0 +1,31 @@
+.title-duration-contianer {
+  display: flex;
+  justify-content: space-between;
+}
+.title-heading {
+  align-self: flex-start;
+  font-size: 25px;
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.duration-contianer {
+  display: flex;
+}
+.clock-image {
+  align-self: center;
+  margin-right: 10px;
+}
+
+.unorder-list-contianer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 00px;
+}
+.list-of-course {
+  border-radius: 5px;
+  padding: 5px;
+  list-style-type: none;
+  background-color: aliceblue;
+  margin: 8px;
+  font-size: 15px;
+}
